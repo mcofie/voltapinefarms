@@ -1,0 +1,93 @@
+/*
+ author: maxwell Cofie
+*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: "Recoleta";
+  src: url("../fonts/recoleta-regular.otf");
+}
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.indigo {
+  background-color: #294A66;
+}
+
+.madderLake {
+  background-color: #cc2936;
+}
+
+.cornsilk {
+  background-color: #faf4d3;
+}
+
+.caribeanGreen {
+  background-color: #06D6A0;
+}
+
+h1 {
+  font-family: "Recoleta";
+  font-style: normal;
+}
+
+.hero {
+  width: 100%;
+  float: left;
+  background-color: #004643;
+}
+
+.service_wrapper {
+  width: 100%;
+  padding: 100px 0;
+  float: left;
+}
+.service_wrapper h1 {
+  font-size: 3rem;
+}
+
+.emoticon {
+  font-size: 10rem;
+}
+
+.farmer_wrapper {
+  width: 100%;
+  height: 600px;
+  float: left;
+  background: url("../imgs/countryside-workers-out-field.jpg") no-repeat center center;
+  background-origin: content-box;
+  background-size: cover;
+}
+
+.farm_service_wrapper {
+  width: 100%;
+  float: left;
+}
+
+.cone {
+  width: 500px;
+  height: 500px;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  background-color: #272932;
+  border-radius: 0 0 60% 60%;
+}
+
+.farm_sector {
+  width: 100%;
+  padding: 0 0 0 0;
+  float: left;
+}
+.farm_sector h1 {
+  font-size: 5rem;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  float: left;
+  background-color: #272932;
+}
+
+/*# sourceMappingURL=app.css.map */
