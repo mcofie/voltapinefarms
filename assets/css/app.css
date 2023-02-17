@@ -161,7 +161,7 @@ footer img {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 300px) {
   .hero h1 {
     font-size: 3rem;
   }
@@ -170,6 +170,42 @@ footer img {
   }
   .service_wrapper h1 {
     font-size: 2rem;
+  }
+
+  .cone-1 {
+    width: 280px;
+    height: 280px;
+  }
+  .cone-1-tint-1 {
+    width: 280px;
+    height: 280px;
+  }
+
+  .cone-2 {
+    width: 280px;
+    height: 280px;
+  }
+  .cone-2-tint-2 {
+    width: 280px;
+    height: 280px;
+  }
+
+  .cone-3 {
+    width: 280px;
+    height: 280px;
+  }
+  .cone-3-tint-3 {
+    width: 280px;
+    height: 280px;
+  }
+
+  .cone-4 {
+    width: 280px;
+    height: 280px;
+  }
+  .cone-4-tint-4 {
+    width: 280px;
+    height: 280px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -183,14 +219,14 @@ footer img {
   }
 
   .service_wrapper {
-    padding: 35px 0;
+    padding: 20px 0;
   }
   .service_wrapper h1 {
     font-size: 2.2rem;
   }
 
   .banner h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .farm_sector h1 {
@@ -201,39 +237,39 @@ footer img {
   }
 
   .cone-1 {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
   }
   .cone-1-tint-1 {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
   }
 
   .cone-2 {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
   }
   .cone-2-tint-2 {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
   }
 
   .cone-3 {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
   }
   .cone-3-tint-3 {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
   }
 
   .cone-4 {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
   }
   .cone-4-tint-4 {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
   }
 
   footer {
@@ -337,6 +373,41 @@ footer img {
   }
   .hero .logo {
     width: 150px;
+  }
+  .cone-1 {
+    width: 385px;
+    height: 385px;
+  }
+  .cone-1-tint-1 {
+    width: 385px;
+    height: 385px;
+  }
+
+  .cone-2 {
+    width: 385px;
+    height: 385px;
+  }
+  .cone-2-tint-2 {
+    width: 385px;
+    height: 385px;
+  }
+
+  .cone-3 {
+    width: 385px;
+    height: 385px;
+  }
+  .cone-3-tint-3 {
+    width: 385px;
+    height: 385px;
+  }
+
+  .cone-4 {
+    width: 385px;
+    height: 385px;
+  }
+  .cone-4-tint-4 {
+    width: 385px;
+    height: 385px;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */

@@ -136,7 +136,7 @@ footer {
 
 //Media Queries
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 300px) {
   .hero {
     & h1 {
       font-size: 3rem;
@@ -154,6 +154,18 @@ footer {
   .service_wrapper {
     & h1 {
       font-size: 2rem;
+    }
+  }
+
+  @for $i from 1 through 4 {
+    .cone-#{$i} {
+      width: 280px;
+      height: 280px;
+
+      &-tint-#{$i} {
+        width: 280px;
+        height: 280px;
+      }
     }
   }
 }
@@ -177,7 +189,7 @@ footer {
 
 
   .service_wrapper {
-    padding: 35px 0;
+    padding: 20px 0;
 
     & h1 {
       font-size: 2.2rem;
@@ -186,7 +198,7 @@ footer {
 
   .banner {
     & h2 {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
 
@@ -202,12 +214,12 @@ footer {
 
   @for $i from 1 through 4 {
     .cone-#{$i} {
-      width: 320px;
-      height: 320px;
+      width: 340px;
+      height: 340px;
 
       &-tint-#{$i} {
-        width: 320px;
-        height: 320px;
+        width: 340px;
+        height: 340px;
       }
     }
   }
@@ -316,6 +328,18 @@ footer {
 
     & img {
       //width: 150px;
+    }
+  }
+
+  @for $i from 1 through 4 {
+    .cone-#{$i} {
+      width: 385px;
+      height: 385px;
+
+      &-tint-#{$i} {
+        width: 385px;
+        height: 385px;
+      }
     }
   }
 
