@@ -159,6 +159,9 @@ footer {
 footer img {
   width: 90px;
 }
+footer a {
+  color: #232323;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 300px) {
@@ -417,6 +420,11 @@ footer img {
   }
   .hero .logo {
     width: 200px;
+  }
+
+  .farmer_wrapper {
+    width: 100%;
+    height: 600px;
   }
 
   .farm_sector h1 {
