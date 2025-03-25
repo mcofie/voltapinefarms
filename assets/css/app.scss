@@ -11,6 +11,10 @@ $secondaryColor: #06D6A0;
 $cornsilk: #faf4d3;
 $madderLake: #cc2936;
 $indigoDye: #294A66;
+
+$kitColor: #FAF1E6;
+$brainColor: #B17F59;
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 @font-face {
@@ -20,6 +24,15 @@ $indigoDye: #294A66;
 
 * {
   font-family: 'Quicksand', sans-serif;
+}
+
+.cl {
+  background-color: $kitColor;
+
+}
+
+.pl {
+  background-color: $brainColor;
 }
 
 .indigo {
@@ -41,13 +54,20 @@ $indigoDye: #294A66;
 h1, h2, h3, h4, h5, h6 {
   font-family: "Recoleta";
   font-style: normal;
+  margin: 0;
 }
 
 .hero {
   width: 100%;
   float: left;
   background-color: $primaryColor;
+
+  &-alt {
+    color: $primaryColor !important;
+    background-color: #FFFFFF;
+  }
 }
+
 
 .service_wrapper {
   width: 100%;
@@ -111,6 +131,14 @@ $backdrops: 'vegetables.png', 'front-view-fresh-yellow.png', 'brown-chickens-far
   }
 }
 
+.btn-primary {
+  padding: 15px 150px;
+  margin: 5px 10px;
+  background-color: #FFFFFF;
+  color: #000;
+  font-weight: bolder;
+  border: 3px #333 solid;
+}
 
 .farm_sector {
   width: 100%;
@@ -132,9 +160,15 @@ footer {
   & img {
     width: 90px;
   }
-  & a{
+
+  & a {
     color: #232323;
   }
+}
+
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active, .btn:focus-visible, .btn:hover {
+  background-color: #FFFFFF;
+  color: black;
 }
 
 //Media Queries
@@ -205,7 +239,7 @@ footer {
     }
   }
 
-  .farm_sector {
+  .farm_sector, .urban-kit, .title {
     & h1 {
       font-size: 2.7rem;
     }
@@ -279,7 +313,7 @@ footer {
     }
   }
 
-  .farm_sector {
+  .farm_sector, .urban-kit, .title {
     & h1 {
       font-size: 3rem;
     }
@@ -365,7 +399,7 @@ footer {
     height: 600px;
   }
 
-  .farm_sector {
+  .farm_sector, .urban-kit, .title {
     & h1 {
       font-size: 5rem;
     }

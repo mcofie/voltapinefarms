@@ -10,6 +10,14 @@
   font-family: "Quicksand", sans-serif;
 }
 
+.cl {
+  background-color: #FAF1E6;
+}
+
+.pl {
+  background-color: #B17F59;
+}
+
 .indigo {
   background-color: #294A66;
 }
@@ -29,12 +37,17 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Recoleta";
   font-style: normal;
+  margin: 0;
 }
 
 .hero {
   width: 100%;
   float: left;
   background-color: #004643;
+}
+.hero-alt {
+  color: #004643 !important;
+  background-color: #FFFFFF;
 }
 
 .service_wrapper {
@@ -141,6 +154,15 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0 0 60% 60%;
 }
 
+.btn-primary {
+  padding: 15px 150px;
+  margin: 5px 10px;
+  background-color: #FFFFFF;
+  color: #000;
+  font-weight: bolder;
+  border: 3px #333 solid;
+}
+
 .farm_sector {
   width: 100%;
   padding: 0 0 0 0;
@@ -161,6 +183,11 @@ footer img {
 }
 footer a {
   color: #232323;
+}
+
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active, .btn:focus-visible, .btn:hover {
+  background-color: #FFFFFF;
+  color: black;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -232,10 +259,10 @@ footer a {
     font-size: 2rem;
   }
 
-  .farm_sector h1 {
+  .farm_sector h1, .urban-kit h1, .title h1 {
     font-size: 2.7rem;
   }
-  .farm_sector p {
+  .farm_sector p, .urban-kit p, .title p {
     font-size: 0.8rem;
   }
 
@@ -313,10 +340,10 @@ footer a {
     font-size: 2.5rem;
   }
 
-  .farm_sector h1 {
+  .farm_sector h1, .urban-kit h1, .title h1 {
     font-size: 3rem;
   }
-  .farm_sector p {
+  .farm_sector p, .urban-kit p, .title p {
     font-size: 1rem;
   }
 
@@ -427,10 +454,10 @@ footer a {
     height: 600px;
   }
 
-  .farm_sector h1 {
+  .farm_sector h1, .urban-kit h1, .title h1 {
     font-size: 5rem;
   }
-  .farm_sector p {
+  .farm_sector p, .urban-kit p, .title p {
     font-size: 1rem;
   }
 
