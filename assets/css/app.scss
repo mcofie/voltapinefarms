@@ -12,7 +12,7 @@ $cornsilk: #faf4d3;
 $madderLake: #cc2936;
 $indigoDye: #294A66;
 
-$kitColor: #FAF1E6;
+$kitColor: #FAF4D3;
 $brainColor: #B17F59;
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
@@ -68,6 +68,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.kit-unit {
+  width: 100%;
+  float: left;
+  margin: 5px;
+  padding-bottom: 10px;
+  background-color: #FFF;
+  color: rgba(62, 62, 62, 0.93);
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+}
+
+.band {
+  width: 100%;
+  float: left;
+  color: #FFF;
+  background-color: #cc2936;
+}
 
 .service_wrapper {
   width: 100%;
@@ -238,7 +255,7 @@ footer {
     }
   }
 
-  .farm_sector, .urban-kit, .title {
+  .farm_sector, .urban-kit, .kit-unit, .title {
     & h1 {
       font-size: 2.7rem;
     }
@@ -312,7 +329,7 @@ footer {
     }
   }
 
-  .farm_sector, .urban-kit, .title {
+  .farm_sector, .urban-kit, .kit-unit, .title {
     & h1 {
       font-size: 3rem;
     }
@@ -398,7 +415,7 @@ footer {
     height: 600px;
   }
 
-  .farm_sector, .urban-kit, .title {
+  .farm_sector, .urban-kit, .kit-unit, .title {
     & h1 {
       font-size: 5rem;
     }
