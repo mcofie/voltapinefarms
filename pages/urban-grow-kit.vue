@@ -218,7 +218,7 @@
                     </p>
                   </li>
                 </ul>
-                <div class="row justify-content-center mx-auto">
+                <div class="row justify-content-start mx-auto">
                   <div class="col-md-6 col-lg-4 col-10 py-5">
                     <a href="https://drive.google.com/file/d/1DI7Z-RkNudYtGd1l45GUjxXR2jW-x3OC/view?usp=drive_link">
                       <img src="../assets/imgs/1.png"
@@ -251,6 +251,18 @@
                     <a href="https://drive.google.com/file/d/1duRnyKnDueGA_Ic5JMBT6guh6W2zwPmf/view?usp=drive_link"
                        download target="_blank">
                       <h5 class="text-decoration-underline mt-3 text-black">Urban Grow Kit Guide Book
+                        <Icon name="material-symbols-light:arrow-outward-rounded" style="color: black"/>
+                      </h5>
+                    </a>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-10 py-5">
+                    <a href="https://drive.google.com/file/d/1hSih8t3_09MLsaNUk7FS-5ndc920KsG7/view?usp=sharing">
+                      <img src="../assets/imgs/garden-journal.png"
+                           class="img-fluid"/>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1hSih8t3_09MLsaNUk7FS-5ndc920KsG7/view?usp=sharing"
+                       download target="_blank">
+                      <h5 class="text-decoration-underline mt-3 text-black">Garden Journal
                         <Icon name="material-symbols-light:arrow-outward-rounded" style="color: black"/>
                       </h5>
                     </a>

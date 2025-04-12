@@ -124,17 +124,17 @@
       "#sitemap/*": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime/*"
       ],
-      "#robots": [
-        "../node_modules/@nuxtjs/robots/dist/runtime"
-      ],
-      "#robots/*": [
-        "../node_modules/@nuxtjs/robots/dist/runtime/*"
-      ],
       "#aos": [
         "../node_modules/nuxt-aos/dist/runtime"
       ],
       "#aos/*": [
         "../node_modules/nuxt-aos/dist/runtime/*"
+      ],
+      "#robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime"
+      ],
+      "#robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/*"
       ],
       "#unhead/composables": [
         "../node_modules/nuxt/dist/head/runtime/composables/v3"
@@ -174,8 +174,8 @@
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@unocss/nuxt/runtime/server",
     "../node_modules/@nuxtjs/sitemap/runtime/server",
-    "../node_modules/@nuxtjs/robots/runtime/server",
     "../node_modules/nuxt-aos/runtime/server",
+    "../node_modules/@nuxtjs/robots/runtime/server",
     "../node_modules/@nuxt/icon/runtime/server",
     "../node_modules/@nuxt/fonts/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
@@ -198,8 +198,8 @@
     "../node_modules/@nuxtjs/mdc/node_modules",
     "../node_modules/@unocss/nuxt/node_modules",
     "../node_modules/@nuxtjs/sitemap/node_modules",
-    "../node_modules/@nuxtjs/robots/node_modules",
     "../node_modules/nuxt-aos/node_modules",
+    "../node_modules/@nuxtjs/robots/node_modules",
     "../node_modules/@nuxt/icon/node_modules",
     "../node_modules/@nuxt/fonts/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
